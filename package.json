@@ -1,0 +1,20 @@
+{
+  "name": "doio-hue-controller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "log": "node keylogger.js",
+    "test:via": "node test/test-via.js",
+    "test:hue": "node test/test-hue.js"
+  },
+  "keywords": ["hue", "doio", "via", "keyboard"],
+  "author": "Alex Sorokoletov",
+  "license": "MIT",
+  "description": "Control Philips Hue lights with DOIO macro keyboard knobs",
+  "dependencies": {
+    "node-hid": "^3.2.0",
+    "node-hue-api": "^5.0.0-beta.16"
+  }
+}
