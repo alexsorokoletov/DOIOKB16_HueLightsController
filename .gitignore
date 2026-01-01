@@ -2,3 +2,7 @@ node_modules/
 config.json
 backups/
 .claude/
+
+# macOS app builds
+HueMenuBar/HueMenuBar.app/
+*.xcuserdata/
